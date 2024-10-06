@@ -12,4 +12,4 @@ This is the source code for our interactive map, which allows users to select a 
 For more information about the required tools, please visit : https://github.com/JiaKai0821/plume-map. The full data from EMIT Methane Point Source Plume Complexes haven't been fully updated to github
 
 web_develop.py
-This is the source code
+This is the source code for another interactive map, which shows the pie chart of energy usage of up to 82 countries all around the world. User can easily pull the 5 slider shown in the left side of page, to manipulate the usage percentage of certain energy source.The table below shows that the population, total energy consumption, the equivalent wetland area per capita that can achieve carbon neutrality in real time.For more information about the required tools, please visit : https://github.com/JiaKai0821/donut-chart.

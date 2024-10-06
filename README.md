@@ -1,15 +1,17 @@
-**CO2_Budget Fossil Fuel.py **
+CO2_Budget Fossil Fuel.py
+In this script, we utilized rasterio, matplotlib, numpy, plotly, and pandas to visualize CO₂ emissions from fossil fuel sources, including consumption from aviation, maritime, and land-based activities. The data employed in this code is sourced from the OCO-2 MIP Top-down CO₂ Budgets (FF).
 
+NPP_Calculation_Program.py
+This script employs rasterio, matplotlib, and numpy to visualize the Net Primary Production (NPP) across terrestrial regions, excluding the oceans. The program illustrates the monthly variations in NPP. The data is sourced from the MiCASA Land Carbon Flux.
 
-**NPP_Calculation_Program.py**
+Rh_calculation.py
+In this script, rasterio, matplotlib, and numpy were used to visualize heterotrophic respiration (Rh) over terrestrial regions, excluding the oceans. Monthly changes in Rh are presented. The data for this visualization is from the MiCASA Land Carbon Flux.
 
-**Rh_calculation.py**
+Sea_Air_Flux.py
+This script uses rasterio, matplotlib, and numpy to visualize the sea-air flux over oceanic regions. The monthly changes in the flux are presented, with the data sourced from the MiCASA Land Carbon Flux.
 
-**Sea_Air_Flux.py**
+app.py
+This script contains the source code for an interactive map that allows users to select a date range and display the plumes observed within the specified period. When users hover over a marker on the map, information such as the observation time, maximum concentration, and scene name is shown. The data used in this code is derived from the EMIT Methane Point Source Plume Complexes. For further information on the required tools, please visit: GitHub Repository. Note that the full dataset from the EMIT Methane Point Source Plume Complexes has not yet been fully updated to the repository.
 
-**app.py** <br/>
-This is the source code for our interactive map, which allows users to select a date range and display the plumes that occurred within the specified period. When the user hovers over a marker on the map, the details such as the time the plume was observed, the maximum concentration, and the scene name are displayed. The database we used in this python code is from EMIT Methane Point Source Plume Complexes.
-For more information about the required tools, please visit : https://github.com/JiaKai0821/plume-map. The full data from EMIT Methane Point Source Plume Complexes haven't been fully updated to github
-
-**web_develop.py** <br/> 
-This is the source code for another interactive map, which shows the pie chart of energy usage of up to 82 countries all around the world. User can easily pull the 5 slider shown in the left side of page, to manipulate the usage percentage of certain energy source.The table below shows that the population, total energy consumption, the equivalent wetland area per capita that can achieve carbon neutrality in real time.For more information about the required tools, please visit : https://github.com/JiaKai0821/donut-chart.
+web_develop.py
+This script provides the source code for an interactive map that visualizes the energy usage distribution across 82 countries worldwide. Users can adjust the percentage of energy sources using five sliders displayed on the left side of the page. Below the map, a table presents real-time data on population, total energy consumption, and the equivalent wetland area per capita required to achieve carbon neutrality. For more details about the tools used, please visit: GitHub Repository.
